@@ -1,0 +1,92 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(45deg, #e50000, #333); /* Gradiente vermelho e preto */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #e50000; /* Vermelho para o título */
+    margin-bottom: 20px;
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333; /* Cor de texto mais escura para melhorar o contraste */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e50000; /* Cor do borda vermelho */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff0f5; /* Fundo levemente rosa claro */
+}
+
+form button {
+    background-color: #e50000; /* Botão vermelho */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #cc0000; /* Tom mais escuro de vermelho no hover */
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 20px;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Seção "Você é muito importante pra mim" */
+#importancia p {
+    font-size: 1.5rem;
+    color: #e50000;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Animação de fadeIn para o texto */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
